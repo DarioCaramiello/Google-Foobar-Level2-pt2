@@ -1,0 +1,22 @@
+Il comandante Lambda ama l'efficienza e odia tutto ciò che fa perdere tempo. Dopotutto, il Comandante è un agnello indaffarato!
+Gli scagnozzi che identificano le fonti di inefficienza e trovano modi per rimuoverle vengono generosamente ricompensati.
+Hai individuato una di queste fonti e pensi che risolverla ti aiuterà a costruire la reputazione di cui hai bisogno per essere promosso.
+
+Ogni volta che i dipendenti del Comandante si incrociano nel corridoio, ognuno di loro deve fermarsi
+e salutarsi - uno alla volta - prima di riprendere il proprio cammino. Un saluto dura cinque secondi,
+quindi ogni scambio di saluti dura dieci secondi interi (il saluto del comandante Lambda è un po', ehm, complicato).
+Ritieni che eliminando l'obbligo di saluto potresti risparmiare diverse ore collettive di tempo dei dipendenti al giorno.
+Ma prima devi mostrare al Comandante quanto sia grave il problema.
+
+Scrivi un programma che conti quanti saluti vengono scambiati durante una tipica passeggiata lungo un corridoio. La sala è rappresentata da una corda. Per esempio:
+"--->-><-><-->-"
+
+Ogni stringa del corridoio conterrà tre diversi tipi di caratteri:
+'>', un dipendente che cammina verso destra;
+'<', un impiegato che cammina a sinistra;
+'-', uno spazio vuoto. Ogni dipendente cammina alla stessa velocità a destra o a sinistra, a seconda della direzione.
+Ogni volta che due dipendenti si incrociano, ciascuno saluta l'altro. Poi continuano a camminare fino alla fine, lasciando finalmente il corridoio.
+Nell'esempio sopra, salutano 10 volte.
+
+Scrivere una o più soluzioni di funzione che prendano una stringa che rappresenta i dipendenti che camminano lungo un corridoio e restituiscano
+il numero di volte in cui i dipendenti faranno il saluto militare. conterranno almeno 1 e al massimo 100 caratteri, ciascuno tra -, > o <.
